@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title>Formulier</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Formulier" content="Formulier">
+        <link rel="stylesheet" href="stijlformulier.css">
+    </head>
+    <body>
+   
+    <form action="aantesprekenscript.php"	method="post"> 
+        
+        
+        
+        
+        
+        <fieldset id="formulier">	<legend>Formulier</legend>
+
+        
+        
+        
+        <!-- ************* TEXT ************* -->
+        <label>Text</label> 
+        <br><input type="text" name="text" value="Gringo">   
+        
+        
+        
+        <!-- ************* PASSWORD ************* -->
+        <br>
+        <br>
+        <label>Password</label>
+        <br><input type="password" id="passwoord" required> 
+        <br>
+        <br>
+        
+        
+        
+        <!-- ************* CIJFERS ************* -->
+        <br>
+        <br>
+        <label>Number</label>
+        <br><input type="number" id="cijfer"> 
+        <br>
+        <br>
+        
+        
+        
+        <!-- ************* OPTION ************* -->
+        <select id="geslacht" name="geslacht">
+            <option disabled>kies</option>
+            <option value="man">man</option>
+            <option value="vrouw">vrouw</option>
+        </select>
+        
+        <!--  OF  -->
+        
+        <select id="kleur" name="kleur">
+            <option disabled>kies</option>
+            <option value="rood">rood</option>
+            <option value="blauw">blauw</option>
+            <option value="zwart">zwart</option>
+            <option value="groen">groen</option> 
+        </select>
+
+        
+        <br>
+        <br>
+        
+        <!-- ************* RADIO ************* -->
+        <em>Kies je keuze</em> <br>
+        <input type="radio" name="auto" value="BMW"> BMW
+        <br><input type="radio" name="auto" value="Mercedes"> Mercedes
+        <br><input type="radio" name="auto" value="Audi"> Audi
+        <br><input type="radio" name="auto" value="VW"> VW
+        <br><input type="radio" name="auto" value="Opel"> Opel
+
+        
+        
+        
+        <!-- ************* CHECKBOX ************* -->
+        
+        <br>
+        <br>
+        <em>Kies je keuze</em> <br>
+        
+        <input type="checkbox" name="haar" value="Lang"> Lang
+        <input type="checkbox" name="haar" value="Kort"> Kort
+        <input type="checkbox" name="haar" value="Geen"> Geen
+        
+            
+            
+        <!-- ************* TEXTAREA ************* -->
+        <br> <br>
+        <textarea id="invul" name="invul" cols="50" rows="4"></textarea>
+
+            
+            
+            
+        <!-- ************* KALENDER ************* -->
+        <br> <br>
+        <label>Kalender</label>
+        <input type="date">
+            
+            
+            
+        <!-- ************* Verzend ************* --> 
+        <br><br>
+        <input id="zend" type="submit" value="verstuur" />
+
+            
+            
+            
+        </fieldset>
+      
+    </form>
+
+    </body>
+</html>

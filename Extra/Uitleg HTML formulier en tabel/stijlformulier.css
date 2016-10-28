@@ -1,0 +1,46 @@
+h1
+{
+    font-family: monospace;
+    
+    /* px ******** % ********** em  */
+    font-size: 50px;
+    color: blue;
+    background-color: yellow;
+}
+
+
+
+
+
+table 
+{
+    background-color: red;
+    font-family: sans-serif;
+    
+    margin-left: 150px;
+}
+
+th
+{
+    width: 200px;
+    background-color: orange;
+}
+
+
+td
+{
+    /* GRAS */
+    font-weight: bold;  
+    
+    /* SOUS-Ligner*/
+    text-decoration: underline;
+    
+    /* AU MILIEU*/
+   text-align: center;
+}
+
+.feestclass
+{
+    background-color: yellow;
+    
+}
